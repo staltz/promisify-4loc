@@ -1,0 +1,28 @@
+{
+  "name": "promisify-4loc",
+  "version": "1.0.0",
+  "description": "Promisify a callback-style function in just 4 lines of code",
+  "repository": "https://github.com/staltz/promisify-4loc",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "author": "Andre Staltz <contact@staltz.com>",
+  "license": "MIT",
+  "keywords": [
+    "chain",
+    "pipe",
+    "functions",
+    "functional",
+    "compose"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "typescript": "3.0.x",
+    "tape": "4.9.1"
+  }
+}
